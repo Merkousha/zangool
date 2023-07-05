@@ -1,0 +1,30 @@
+#tifani-class{
+    background-color: #006080;
+
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('Vazirmatn-Regular.ttf');
+}
+
+body{
+    font-family: MyWebFont;
+}
+
+#bg-card{
+    background-color: #DFF6F7;
+}
+
+#btn-card{
+    background-color: #006080;
+}
+
+#btn-yel{
+    background-color: #F8B300;
+    color: #006080;
+}
+
+.sidebar{
+    width: 7rem !important;
+}
