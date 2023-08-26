@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zangool.ir - Event Organizer System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .logo-img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        .events {
+            padding: 80px 0;
+        }
+
+        .event-card {
+            border: none;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .event-card .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .event-card .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .event-card .card-text {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .event-card .contact-info {
+            margin-top: 20px;
+        }
+
+        .join-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .join-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="https://th.bing.com/th/id/OIG.zRIXy0Xk1qeDu3YcsfT2?pid=ImgGn" alt="Zangool Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/events/">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Events Section -->
+    <section class="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://th.bing.com/th/id/R.f319df4d9556b41767bc3b89f0e4d29a?rik=A2YY3UeoB2xlZA&pid=ImgRaw&r=0" class="card-img-top" alt="Workshop Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Workshop Event</h5>
+                            <div class="contact-info">
+                                <p>Email: workshop@example.com</p>
+                                <p>Phone: 123-456-7890</p>
+                                <p>Address: Workshop Address</p>
+                            </div>
+                            <a class="join-button" href="/event/workshop">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://th.bing.com/th/id/R.9b9a7c4d4217b9f7b1209f89a11ab34d?rik=m8V7H0Yfeyzb4A&pid=ImgRaw&r=0" class="card-img-top" alt="Conference Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Conference Event</h5>
+                            <div class="contact-info">
+                                <p>Email: conference@example.com</p>
+                                <p>Phone: 987-654-3210</p>
+                                <p>Address: Conference Address</p>
+                            </div>
+                            <a class="join-button" href="/event/conference">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://th.bing.com/th/id/R.ad41fa88d3ed663e6806bff688a6047a?rik=TQda2AtOXStBWw&riu=http%3a%2f%2fwww.stagepittsburgh.com%2fwp-content%2fuploads%2f2016%2f10%2fCeCLX1UVAAAlPcD.jpg&ehk=3q4zl7pb2icLa3oGeOLPQMtxOJr2R0OgUdimgQQWPTA%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="card-img-top" alt="Music Concert Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Music Concert Event</h5>
+                            <div class="contact-info">
+                                <p>Email: concert@example.com</p>
+                                <p>Phone: 555-123-4567</p>
+                                <p>Address: Concert Address</p>
+                            </div>
+                            <a class="join-button" href="/event/concert">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://th.bing.com/th/id/R.8154a87aefd189fa05aa445b5d34ef9d?rik=8HmfaW2h7y4rdg&riu=http%3a%2f%2fwww.aeisenschmidt.com%2fwp-content%2fuploads%2f2014%2f03%2f6a-Chicagoisms-Exhibit.jpg&ehk=x4ezTgJtZShedCeB6DEri68jJinjAoHUmj7o38V5JVg%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Art Exhibition Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Art Exhibition Event</h5>
+                            <div class="contact-info">
+                                <p>Email: info@zangool.ir</p>
+                                <p>Phone: +98 912 345 6789</p>
+                                <p>Address: Tehran, Iran</p>
+                            </div>
+                            <a class="join-button" href="/event/art-exhibition">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://th.bing.com/th/id/R.23f1ab8848750a2d99618aecd5f60fa0?rik=uIh4nRMilS1OnQ&pid=ImgRaw&r=0" class="card-img-top" alt="Sports Tournament Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Sports Tournament Event</h5>
+                            <div class="contact-info">
+                                <p>Email: sports@example.com</p>
+                                <p>Phone: 999-888-7777</p>
+                                <p>Address: Sports Tournament Address</p>
+                            </div>
+                            <a class="join-button" href="/event/sports-tournament">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card event-card">
+                        <img src="https://instinctmusic.com.au/wp-content/uploads/2016/03/Corporate-Ball-RMHC-2014.jpg" class="card-img-top" alt="Charity Gala Event">
+                        <div class="card-body">
+                            <h5 class="card-title">Charity Gala Event</h5>
+                            <div class="contact-info">
+                                <p>Email: charity@example.com</p>
+                                <p>Phone: 777-666-5555</p>
+                                <p>Address: Charity Gala Address</p>
+                            </div>
+                            <a class="join-button" href="/event/charity-gala">Join</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

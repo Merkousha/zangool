@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zangool.ir - Event Organizer System</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .logo-img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+    </style>
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Zangool.ir</a>
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="https://th.bing.com/th/id/OIG.zRIXy0Xk1qeDu3YcsfT2?pid=ImgGn" alt="Zangool Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,7 +37,7 @@
                         <a class="nav-link" href="/about/">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="/events/">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -40,12 +52,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="img-responsive img-centered" src="https://avatars.githubusercontent.com/u/123892093?v=4"/>
+                    <img class="img-responsive img-centered" src="https://avatars.githubusercontent.com/u/123892093?v=4" alt="Zangool Hero Image">
                 </div>
             </div>
             <h1 class="display-4">Welcome to Zangool.ir</h1>
             <p class="lead">The best platform for organizing and managing events</p>
-            <a href="#" class="btn btn-light btn-lg">Get Started</a>
+            <a href="/events/" class="btn btn-light btn-lg">Get Started</a>
         </div>
     </section>
 
