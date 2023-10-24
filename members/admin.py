@@ -1,8 +1,9 @@
 from django.contrib import admin
-from members.models import Event
+from .models import Event, Blog
 
 # Register your models here.
 
 
 
 admin.site.register(Event)
+admin.site.register(Blog)
